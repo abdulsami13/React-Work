@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423856931948",
+    "project_id": "axsoltech-c4f04",
+    "storage_bucket": "axsoltech-c4f04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423856931948:android:3b3b528e5fd984bb10c449",
+        "android_client_info": {
+          "package_name": "com.firebaseotprequest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423856931948-7e1enjcvpto2j6c44j6tc3p4fcsd1v59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5kMYRQjwC4EkXST1FtoHHQe19tGYYJdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423856931948-7e1enjcvpto2j6c44j6tc3p4fcsd1v59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
