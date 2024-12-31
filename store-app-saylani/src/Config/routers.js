@@ -4,6 +4,8 @@ import SignupPage from "../Screen/SignUpPage";
 import HomePage from "../Screen/HomePage";
 import StudentLogin from "../Screen/SdutentLogin";
 import MainPage from "../Screen/MainPage";
+import TestPage from "../TestScreen/Testpage";
+import ShowResult from "../TestScreen/ShowResult";
 
 // import Hello from "../Screens/User/Home";
 // import CarDetail from "../Screens/User/CarDetail";
@@ -25,8 +27,12 @@ function Routers(){
 <BrowserRouter>
 <Routes>
 
+
+<Route path="/test" element={<TestPage/>}/>
+
     <Route path="/Sigup" element={<SignupPage/>}/>
     <Route path="/login" element={<LoginPage/>}/>
+    <Route path="/result" element={<ShowResult/>}/>
     
     <Route path="/" element={<HomePage/>}/>
     <Route path="/studentlogin" element={<StudentLogin/>}/>

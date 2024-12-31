@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 import ShowStudent from './MainPages/ShowStudent';
 import Announcement from './MainPages/Announcement';
 import StudentCreate from './MainPages/StudentSubmit';
@@ -11,19 +11,25 @@ const MainComponent = () => {
     navigate('/Main/ShowStudents');
   };
 
+
+  let location = useLocation();
+console.log(location.pathname);
   return (
     <div style={{ display: 'flex' }}>
-      <div style={{ width: '13%', backgroundColor: 'lightblue', height: '100vh', textAlign: 'center', display: 'flex', flexDirection: 'column',paddingTop:20 }}>
+      <div style={{ width: '13%', backgroundColor: '#13a64e', height: '100vh', textAlign: 'center', display: 'flex', flexDirection: 'column',paddingTop:20 }}>
 
 <div style={{width:85,height:85,backgroundColor:"gray",alignSelf:"center" , borderRadius:54}}>
 
 </div>
 
 
- <div style={{ cursor: 'pointer',paddingTop:40}} onClick={()=>{navigate('/Main/ShowStudents')}}>
+ <div style={{ cursor: 'pointer',paddingTop:20}} onClick={()=>{navigate('/Main/ShowStudents')}}>
+<div style={{backgroundColor:location.pathname=="/Main/ShowStudents"?"white":"transparent" , borderTopLeftRadius:30,borderBottomLeftRadius:30,paddingTop:1,paddingBottom:1}}>
+
 <p>
     StudentList 
 </p>
+</div>
     </div>    
 
 <div style={{borderWidth:1,borderColor:"black",borderStyle:"solid"}}>

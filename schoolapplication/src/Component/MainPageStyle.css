@@ -1,0 +1,27 @@
+
+
+
+.backgroundImage{
+
+  background-image:url("../Images/TopBackground.png") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:90vh;
+
+
+  align-content: center;
+}
+
+.CardbackgroundImage{
+
+  background-image:url("../Images/cardBackground.png") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:120vh;
+
+
+  align-content: center;
+}
+
